@@ -1,0 +1,98 @@
+/* Resetting default margin and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Styling for main heading */
+h1 {
+    font-size: 4em; /* Set font size to 4em */
+    text-align: center; /* Center align text */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; /* Define font family */
+}
+
+/* Styling for secondary headings */
+h2 {
+    font-size: 2.5em; /* Set font size to 2.5em */
+    text-align: center; /* Center align text */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; /* Define font family */
+}
+
+/* Grid layout for buttons */
+#grid {
+    display: grid; /* Use CSS Grid for layout */
+    grid-template-columns: repeat(5, 20%); /* 5 columns each taking up 20% of the width */
+}
+
+/* Button styles for each category */
+#noun1 {
+    background-color: coral; /* Set background color */
+}
+
+#verb {
+    background-color: aquamarine; /* Set background color */
+}
+
+#adjective {
+    background-color: goldenrod; /* Set background color */
+}
+
+#noun2 {
+    background-color: lightgreen; /* Set background color */
+}
+
+#setting {
+    background-color: mediumslateblue; /* Set background color */
+}
+
+/* Common button styles */
+button {
+    margin: 4%; /* Set margin */
+    margin-top: 10%; /* Set top margin */
+    border-radius: 20px; /* Set border radius */
+    filter: drop-shadow(0 0 0.35em black); /* Apply drop shadow effect */
+    height: 40px; /* Set height */
+    width: auto; /* Set width to auto */
+    font-weight: bold; /* Set font weight */
+    transition: ease-out .5s; /* Apply transition effect */
+}
+
+/* Hover effect for buttons */
+button:hover {
+    filter: drop-shadow(0 0 .15em black); /* Change drop shadow on hover */
+    transition: ease-in-out .5s; /* Smooth transition on hover */
+    height: 48px; /* Increase height on hover */
+    width: auto; /* Set width to auto on hover */
+}
+
+/* Styling for text displayed below buttons */
+#grid > p {
+    text-align: center; /* Center align text */
+    font-size: larger; /* Set font size */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; /* Define font family */
+}
+
+/* Grid layout for secondary buttons */
+#grid2 {
+    display: grid; /* Use CSS Grid for layout */
+    grid-template-columns: repeat(3, 33.3%); /* 2 columns each taking up 50% of the width */
+}
+
+/* Styling for secondary buttons */
+#grid2 > button {
+    background-color: rgb(210, 30, 141); /* Set background color */
+    color: white; /* Set text color to white */
+}
+
+/* Styling for text displayed below secondary buttons */
+#grid2 > p {
+    text-align: center; /* Center align text */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; /* Define font family */
+    font-size: x-large;
+}
+
+#img > img{
+    width: auto;
+    height: 500px;
+    margin-left: 25%;
+}

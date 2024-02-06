@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Assignment 1 | COMP1073 Client-Side JavaScript</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <h1>See-N-Say Storymaker</h1>
+    <p id="studentId"></p>
+    <h2>Create Your Story</h2>
+    <section id="grid">
+        <!-- Section with all the buttons for the user to build their story -->
+        <!-- Just changed the sequence for making it a little different	from the original assignment -->
+        <button id="noun1">Noun 1</button>
+        <button id="verb">Verb</button>
+        <button id="adjective">Adjective</button>
+        <button id="noun2">Noun 2</button>
+        <button id="setting">Setting</button>
+        <p id="choosenNoun1"></p>
+        <p id="choosenVerb"></p>
+        <p id="choosenAdjective"></p>
+        <p id="choosenNoun2"></p>
+        <p id="choosenSetting"></p>
+    </section>
+    <h2>See Your Story</h2>
+    <section id="grid2">
+        <!-- Section with playback controls to see or hear the story -->
+        <button id="playback">Show Story</button>
+        <button id="random">Random Story</button>
+        <button id="reset">Reset</button> <!-- Added Reset Button -->
+        <!-- Empty paragraph to display the story -->
+        <p id="story"></p>
+    </section>
+	<section id="img">
+		<img src="./img/img.png" alt="">
+	</section>
+    <script src="./js/storymaker.js"></script>
+</body>
+
+</html>
